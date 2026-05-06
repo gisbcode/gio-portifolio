@@ -46,8 +46,8 @@ h3 {
 }
 
 .p-feature {
-    color: #333;
-    font-size: 18px;
+    color: #272626;
+    font-size: 17px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-bottom: 40px;
     margin-top: 30px;
@@ -75,10 +75,6 @@ h3 {
     
    
 
-.yogurt {
-    font-size: 45px;
-}
-
 p {
     font-size: 20px;
      color: #333;
@@ -102,3 +98,23 @@ p {
     cursor: pointer;
     border-radius: 4px;
 }
+
+
+.yogurt {
+    font-size: 45px;
+    padding-top: 60px;
+    
+}
+
+.weather {
+      font-size: 45px;
+    padding-top: 60px;
+
+}
+
+.dictionary {
+
+      font-size: 45px;
+    padding-top: 60px;
+}
+    
