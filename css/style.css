@@ -111,7 +111,70 @@ p {
 }
 
 
+
+
+
 @media (max-width: 960px) {
+  body {
+    text-align: center;
+  }
+
+  .text-start {
+    text-align: center !important;
+  }
+
+  .project-description,
+  .container,
+  .container-header {
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto 30px;
+    max-width: 100%;
+  }
+
+  .btn-branding,
+  .btn-yogurt {
+    display: block;
+    margin: 15px auto;
+    width: fit-content;
+  }
+
+  h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  p,
+  .p-feature {
+    text-align: center;
+  }
+}
+
+body {
+    text-align: center;
+  }
+
+  .container,
+  .container-header,
+  .row,
+  .col-md-6 {
+    text-align: center;
+  }
+
+
 .project-description {
     padding: 0;
     text-align: center;
@@ -140,7 +203,16 @@ p {
     padding: 10px 15px;
   }
 
-  
-}
+  .yogurt,
+    .weather,
+    .dictionary {
+      font-size: 30px;
+      padding-top: 30px;
+    }
+.paragraph {
+    font-size: 17px;
+     
+  }
+    
 
 
