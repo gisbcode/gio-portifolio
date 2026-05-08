@@ -115,6 +115,28 @@ p {
 
 
 @media (max-width: 960px) {
+  .project-description {
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .paragraph {
+    text-align: center;
+   font-size: 17px;
+  }
+
+  .btn-yogurt {
+    display: block;
+    margin: 20px auto;
+    width: fit-content;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+
+
   body {
     text-align: center;
   }
@@ -125,6 +147,7 @@ p {
 
   .project-description,
   .container,
+  .row,
   .container-header {
     text-align: center;
   }
@@ -143,7 +166,7 @@ p {
   }
 
   h1 {
-    font-size: 45px;
+    font-size: px;
     text-align: center;
   }
 
@@ -161,36 +184,19 @@ p {
   .p-feature {
     text-align: center;
   }
-}
+
 
 body {
     text-align: center;
   }
 
-  .container,
-  .container-header,
-  .row,
-  .col-md-6 {
-    text-align: center;
-  }
-
+ 
 
 .project-description {
     padding: 0;
-    text-align: center;
   }
 
-  h1 {
-    font-size: 50px;
-  }
-
-  h2 {
-    font-size: 25px;
-  }
-
-  h3 {
-    font-size: 20px;
-  }
+  
 
   .p-feature {
     font-size: 15px;
@@ -209,10 +215,7 @@ body {
       font-size: 30px;
       padding-top: 30px;
     }
-.paragraph {
-    font-size: 17px;
-     
-  }
-    
 
+    
+}
 
