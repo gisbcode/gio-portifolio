@@ -1,29 +1,31 @@
 :root {
   --primary-color: #8a2be2;
-  --secondary-color: #f6dffc;
+  --secondary-color: #f9e2ff;
   --text-color: #333;
   --background-color: #ffffff;
   --font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-header {
-  color: var(--secondary-color);
- 
 
-  text-align: center;
-}
 
 
 body {
   font-family: var(--font-family);
   background-color: var(--background-color);
+    margin: 0;
+  padding: 0;
 }
 
 .custom-navbar,
 .custom-navbar a {
   color: var(--background-color);
     background-color: var(--primary-color);
+    font-size: 18px;
+  padding: 5px; 
+  
 }
+
+
 
 .container-header {
   background-color: var(--secondary-color);
@@ -123,7 +125,7 @@ p {
 
 
 
-@media (max-width: 960px) {
+@media (max-width: 850px) {
   .project-description {
     text-align: center;
     padding: 0px 20px;
@@ -141,7 +143,7 @@ p {
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 45px;
   }
 
 
@@ -150,7 +152,10 @@ p {
     text-align: center;
   }
 
-  .text-start {
+  .container,
+  .row,
+  .container-header,
+   .p-feature {
     text-align: center !important;
   }
 
@@ -189,7 +194,10 @@ p {
     text-align: center;
   }
 
-  p,
+  p {
+    font-size: 15px;
+    text-align: center;
+  }
   .p-feature {
     text-align: center;
   }
@@ -228,3 +236,36 @@ body {
     
 }
 
+@media(max-width: 400px) {
+
+    body {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 25px;
+           text-align: center;
+    }
+    
+    h2 {
+        font-size: 20px;
+           text-align: center;
+    }
+    
+    h3 {
+        font-size: 15px;
+           text-align: center;
+    }
+    
+    .p-feature {
+        font-size: 12px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+           text-align: center;
+    }
+    
+    .btn-branding {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+}
