@@ -6,14 +6,23 @@
   --font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+header {
+  color: var(--secondary-color);
+ 
+
+  text-align: center;
+}
+
+
 body {
   font-family: var(--font-family);
   background-color: var(--background-color);
 }
 
-.custom-navbar {
-  color: var(--text-color);
-  background-color: var(--secondary-color);
+.custom-navbar,
+.custom-navbar a {
+  color: var(--background-color);
+    background-color: var(--primary-color);
 }
 
 .container-header {
@@ -117,7 +126,7 @@ p {
 @media (max-width: 960px) {
   .project-description {
     text-align: center;
-    padding: 0 20px;
+    padding: 0px 20px;
   }
 
   .paragraph {
