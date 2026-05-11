@@ -30,6 +30,7 @@ body {
 .container-header {
   background-color: var(--secondary-color);
   text-align: center;
+ 
 }
 
 h1 {
@@ -124,7 +125,7 @@ p {
 
 .about-section h1 {
  font-size: 60px;
- padding-top: 60px;
+ padding-top: 100px;
 }
 
 .about-section h2 {
@@ -243,6 +244,7 @@ p {
 
 body {
     text-align: center;
+   
   }
 
  
