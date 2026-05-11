@@ -123,7 +123,8 @@ p {
 
 
 .about-section h1 {
-    font-size: 60px;
+ font-size: 60px;
+ padding-top: 35px;
 }
 
 .about-section h2 {
@@ -252,6 +253,7 @@ body {
 
 .about-section h1 {
     font-size: 40px;
+    padding-top: 35px;
 }
     
 .about-section h2 {
