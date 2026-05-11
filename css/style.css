@@ -153,6 +153,16 @@ p {
 
 
 @media (max-width: 850px) {
+
+
+.custom-navbar,
+.custom-navbar a {
+  color: var(--background-color);
+    background-color: var(--primary-color);
+    font-size: 17px;
+  padding: 5px; 
+  
+}
   .project-description {
     text-align: center;
     padding: 0px 20px;
@@ -169,9 +179,7 @@ p {
     width: fit-content;
   }
 
-  h1 {
-    font-size: 45px;
-  }
+
 
 
 
@@ -184,7 +192,9 @@ p {
   .container-header,
    .p-feature {
     text-align: center !important;
+ 
   }
+ 
 
   .project-description,
   .container,
@@ -209,6 +219,7 @@ p {
   h1 {
     font-size: px;
     text-align: center;
+ margin-top: -30px;
   }
 
   h2 {
@@ -273,9 +284,19 @@ body {
     .about-section  p {
     font-size: 14px;
 }
+
+
+.profile-img {
+  width: 480px;
+  height: 350px;
+  object-fit: cover;
+  text-align: center;
+  padding-top: -180px;
+ 
+}
 }
 
-@media(max-width: 300px) {
+@media(max-width: 280px) {
 
     body {
         text-align: center;
@@ -323,6 +344,14 @@ body {
 }
 
 
+
+.profile-img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  text-align: center;
+ 
+}
 
 .custom-navbar,
 .custom-navbar a {
