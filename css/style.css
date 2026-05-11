@@ -263,7 +263,7 @@ body {
 }
 }
 
-@media(max-width: 400px) {
+@media(max-width: 300px) {
 
     body {
         text-align: center;
@@ -296,6 +296,17 @@ body {
         padding: 8px 12px;
     }
 
+    .about-section h1 {
+    font-size: 30px;
+}
+    
+.about-section h2 {
+    font-size: 20px;
+}
+
+    .about-section  p {
+    font-size: 12px;
+}
 
 }
 
