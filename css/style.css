@@ -139,6 +139,7 @@ p {
 
 .about-section  p {
     font-size: 16px;
+    padding-right: 0px;
 }
 
 
@@ -147,6 +148,8 @@ p {
   height: 350px;
   object-fit: cover;
   text-align: center;
+  padding-left: 0px;
+
 }
 
 
