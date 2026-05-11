@@ -20,7 +20,7 @@ body {
 .custom-navbar a {
   color: var(--background-color);
     background-color: var(--primary-color);
-    font-size: 18px;
+    font-size: 20px;
   padding: 5px; 
   
 }
@@ -66,9 +66,9 @@ h3 {
   color: var(--background-color);
   border: none;
   padding: 15px 20px;
-  text-align: center;
+text-align: center;
   text-decoration: none;
-  display: inline-block;
+
   font-size: 18px;
   margin: 4px 2px;
   cursor: pointer;
@@ -272,7 +272,7 @@ body {
     }
 
     h1 {
-        font-size: 25px;
+        font-size: 30px;
            text-align: center;
     }
     
@@ -299,15 +299,27 @@ body {
     }
 
     .about-section h1 {
-    font-size: 30px;
+    font-size: 20px;
+    padding-top: 7px;
 }
     
-.about-section h2 {
-    font-size: 20px;
+.about-section h3 {
+    font-size: 12px;
 }
 
     .about-section  p {
     font-size: 12px;
+}
+
+
+
+.custom-navbar,
+.custom-navbar a {
+  color: var(--background-color);
+    background-color: var(--primary-color);
+    font-size: 14px;
+  padding: 2px; 
+  
 }
 
 }
