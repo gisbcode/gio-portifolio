@@ -123,6 +123,9 @@ p {
 }
 
 
+.about-section  {
+    padding: 50px;
+}
 .about-section h1 {
  font-size: 60px;
  padding-top: 100px;
