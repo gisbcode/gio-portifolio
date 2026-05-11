@@ -114,7 +114,7 @@ p {
 .weather,
 .dictionary {
   font-size: 45px;
-  padding-top: 60px;
+  padding-top: 64px;
 }
 
 .paragraph {
@@ -122,7 +122,23 @@ p {
 }
 
 
+.about-section h1 {
+    font-size: 60px;
+}
 
+.about-section h2 {
+    font-size: 35px;
+}
+
+.about-section p {
+    font-size: 20px;
+}
+
+
+
+.about-section  p {
+    font-size: 16px;
+}
 
 
 @media (max-width: 850px) {
@@ -133,7 +149,7 @@ p {
 
   .paragraph {
     text-align: center;
-   font-size: 17px;
+   font-size: 15px;
   }
 
   .btn-yogurt {
@@ -224,6 +240,7 @@ body {
   .btn-branding {
     font-size: 14px;
     padding: 10px 15px;
+    text-align: center;
   }
 
   .yogurt,
@@ -233,7 +250,17 @@ body {
       padding-top: 30px;
     }
 
+.about-section h1 {
+    font-size: 40px;
+}
     
+.about-section h2 {
+    font-size: 25px;
+}
+
+    .about-section  p {
+    font-size: 14px;
+}
 }
 
 @media(max-width: 400px) {
@@ -268,4 +295,8 @@ body {
         font-size: 12px;
         padding: 8px 12px;
     }
+
+
 }
+
+
