@@ -149,6 +149,7 @@ p {
   object-fit: cover;
   text-align: center;
   padding-left: 0px;
+   padding-top: 50px;
 
 }
 
@@ -302,6 +303,7 @@ body {
         margin-bottom: 15px;
         margin-top: 15px;
            text-align: center;
+          
     }
     
     .btn-branding {
