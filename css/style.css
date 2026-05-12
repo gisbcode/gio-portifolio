@@ -123,7 +123,8 @@ p {
 }
 
 
-.about-section  {
+.about-section,
+.content-container{
     padding: 50px;
 }
 .about-section h1 {
@@ -155,6 +156,14 @@ p {
  
 }
 
+.content-container,
+.content h1,
+.content h3  {
+    text-align: left;
+}
+
+
+
 
 @media (max-width: 850px) {
 
@@ -185,6 +194,11 @@ p {
 
 
 
+.content-container,
+.content h1,
+.content h3 {
+    text-align: center;
+}
 
 
   body {
@@ -201,7 +215,6 @@ p {
  
 
   .project-description,
-  .container,
   .row,
   .container-header {
     text-align: center;
@@ -277,18 +290,22 @@ body {
       padding-top: 30px;
     }
 
-.about-section h1 {
+.about-section h1,
+.content-container h1 {
     font-size: 40px;
     padding-top: 35px;
 }
     
-.about-section h2 {
+.about-section h2,
+.content-container h2 {
     font-size: 25px;
 }
 
-    .about-section  p {
+    .about-section  p,
+    .content-container {
     font-size: 14px;
 }
+
 
 
 .profile-img {
@@ -299,6 +316,9 @@ body {
   padding-top: -180px;
  
 }
+
+
+
 }
 
 @media(max-width: 280px) {
