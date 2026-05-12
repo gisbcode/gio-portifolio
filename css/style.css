@@ -125,14 +125,14 @@ p {
 
 
 .content-container{
-    padding: 160px 20px;
+    padding: 120px 60px;
 }
 .content-container h1 {
- font-size: 60px;
+ font-size: 45px;
 }
 
-.content-container h2 {
-    font-size: 35px;
+.content-container h3 {
+    font-size: 25px;
 }
 
 .content-container p {
