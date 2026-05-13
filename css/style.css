@@ -126,6 +126,7 @@ p {
 
 .content-container{
     padding: 120px 60px;
+    margin: 0 auto;
 }
 .content-container h1 {
  font-size: 60px;
