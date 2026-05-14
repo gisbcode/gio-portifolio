@@ -154,9 +154,9 @@ p {
  
 }
 
-
-
-
+h4 {
+    font-weight: bolder;
+}
 
 @media (max-width: 850px) {
 
