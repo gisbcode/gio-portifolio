@@ -11,7 +11,7 @@
 
 body {
   font-family: var(--font-family);
-  background-color: var(--background-color);
+  background-color: var(--s-color);
     margin: 0;
   padding: 0;
 }
@@ -30,6 +30,8 @@ body {
 .container-header {
   background-color: var(--secondary-color);
   text-align: center;
+  padding: 0px;
+  margin: 0px;
  
 }
 
