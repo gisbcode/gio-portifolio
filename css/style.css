@@ -77,7 +77,7 @@ h3 {
 .p-feature {
   color: var(--text-color);
   font-size: 18px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   margin-top: 30px;
   text-align: center;
 }
@@ -86,7 +86,7 @@ h3 {
   background-color: var(--primary-color);
   color: var(--background-color);
   border: none;
-  padding: 15px 20px;
+  padding: 16px 30px;
 text-align: center;
   text-decoration: none;
 
@@ -135,17 +135,19 @@ p {
 .weather,
 .dictionary {
   font-size: 45px;
-  padding-top: 64px;
+  padding-top: 45px;
 }
 
 .paragraph {
   font-family: var(--font-family);
+  margin-top: -20px;
 }
 
 
 
+
 .content-container{
-    padding: 120px 60px;
+    padding: 120px 10px;
     margin: 0 auto;
 }
 .content-container h1 {
@@ -208,6 +210,7 @@ h4 {
   .paragraph {
     text-align: center;
    font-size: 15px;
+     margin-top: -20px;
   }
 
   .btn-yogurt {
@@ -227,6 +230,7 @@ h4 {
 
   body {
     text-align: center;
+    margin-bottom: 10px;
   }
 
   .container,
@@ -236,7 +240,7 @@ h4 {
     text-align: center !important;
  
   }
- 
+
 
   .project-description,
   .row,
@@ -297,7 +301,7 @@ body {
 
   .p-feature {
     font-size: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     margin-top: 20px;
   }
 
@@ -311,7 +315,7 @@ body {
     .weather,
     .dictionary {
       font-size: 30px;
-      padding-top: 30px;
+      padding-top: 0px;
     }
 
     .content-container {
