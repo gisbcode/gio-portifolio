@@ -38,6 +38,10 @@ body {
   
 }
 
+.custom-navbar a:hover {
+  color: var(--primary-color);
+
+}
 
 
 .container-header {
@@ -187,6 +191,14 @@ h4 {
   margin-bottom: -20px;
   margin-top: 10px;
   
+}
+
+.custom-navbar a:hover {
+  color: var(--primary-color);
+
+}
+.customer-navbar.active a {
+  color: var(--primary-color);
 }
   .project-description {
     text-align: center;
