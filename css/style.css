@@ -16,12 +16,25 @@ body {
   padding: 0;
 }
 
+.logo {
+    max-width: 150px;
+    text-align: left;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+
+
+
 .custom-navbar,
+.logo,
 .custom-navbar a {
-  color: var(--background-color);
-    background-color: var(--primary-color);
-    font-size: 20px;
-  padding: 5px; 
+  color: var(--text-color);
+  font-size: 22px;
+   color: var(--text-color);
+  padding: 1px; 
+  margin-bottom: -20px;
+  margin-top: 10px;
   
 }
 
@@ -29,6 +42,7 @@ body {
 
 .container-header {
   background-color: var(--secondary-color);
+  background-size: 100% 100%;
   text-align: center;
   padding: 0px;
   margin: 0px;
@@ -58,8 +72,8 @@ h3 {
 
 .p-feature {
   color: var(--text-color);
-  font-size: 17px;
-  margin-bottom: 40px;
+  font-size: 18px;
+  margin-bottom: 30px;
   margin-top: 30px;
   text-align: center;
 }
@@ -164,11 +178,14 @@ h4 {
 
 
 .custom-navbar,
+.logo,
 .custom-navbar a {
-  color: var(--background-color);
-    background-color: var(--primary-color);
-    font-size: 17px;
-  padding: 5px; 
+  color: var(--text-color);
+   
+  font-size: 19px;
+  padding: 1px; 
+  margin-bottom: -20px;
+  margin-top: 10px;
   
 }
   .project-description {
