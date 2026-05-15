@@ -188,8 +188,8 @@ h4 {
 
   .small-logo {
     max-width: 45px;
-    margin-top: 10px;
-    margin-left: -8px;
+    margin-top: 0px;
+    margin-left: -6px;
     margin-bottom: -20px;
     padding: 0px;
   }
@@ -369,7 +369,7 @@ h4 {
 
   .custom-navbar,
   .custom-navbar a {
-    font-size: 14px;
+    font-size: 16px;
     padding: 2px;
   }
 
