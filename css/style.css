@@ -6,56 +6,46 @@
   --font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-
-
-
 body {
   font-family: var(--font-family);
-  background-color: var(--s-color);
-    margin: 0;
+  background-color: var(--background-color); /* fixed: was --s-color */
+  margin: 0;
   padding: 0;
 }
 
 .logo {
-    max-width: 150px;
-    text-align: left;
-    margin-top: 0px;
-    padding: 0px;
+  max-width: 150px;
+  text-align: left;
+  margin-top: 0px;
+  padding: 0px;
 }
 
 .small-logo {
   max-width: 45px;
-     text-align: left;
-    margin-top: 0px;
-    padding: 0px;
+  text-align: left;
+  margin-top: 0px;
+  padding: 0px;
 }
-
 
 .custom-navbar,
 .logo,
 .custom-navbar a {
   color: var(--text-color);
   font-size: 22px;
-   color: var(--text-color);
-  padding: 1px; 
+  padding: 1px;
   margin-bottom: -20px;
   margin-top: 10px;
-  
 }
 
 .custom-navbar a:hover {
   color: var(--primary-color);
-
 }
-
 
 .container-header {
   background-color: var(--secondary-color);
-  background-size: 100%, 100%;
   text-align: center;
   padding: 0px;
   margin: 0px;
- 
 }
 
 h1 {
@@ -92,9 +82,8 @@ h3 {
   color: var(--background-color);
   border: none;
   padding: 16px 30px;
-text-align: center;
+  text-align: center;
   text-decoration: none;
-
   font-size: 18px;
   margin: 4px 2px;
   cursor: pointer;
@@ -148,105 +137,65 @@ p {
   margin-top: -20px;
 }
 
-
-
-
-.content-container{
-    padding: 120px 10px;
-    margin: 0 auto;
+.content-container {
+  padding: 120px 10px;
+  margin: 0 auto;
 }
+
 .content-container h1 {
- font-size: 60px;
+  font-size: 60px;
 }
 
 .content-container h3 {
-    font-size: 30px;
-    margin-left: 10px;
-    
+  font-size: 30px;
+  margin-left: 10px;
 }
 
-
-
-.content-container  p {
-    font-size: 18px;
-    padding-right: 0px;
+.content-container p {
+  font-size: 18px;
 }
-
 
 .profile-img {
   width: 450px;
   height: 450px;
   object-fit: cover;
   text-align: center;
- 
 }
 
 h4 {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
-
-
+/* Tablet */
 @media (max-width: 850px) {
+  .custom-navbar,
+  .logo,
+  .custom-navbar a {
+    font-size: 19px;
+    padding: 1px;
+    margin-bottom: -20px;
+    margin-top: 10px;
+  }
 
-
-.custom-navbar,
-.logo,
-.custom-navbar a {
-  color: var(--text-color);
-   
-  font-size: 19px;
-  padding: 1px; 
-  margin-bottom: -20px;
-  margin-top: 10px;
-  
-}
-
-
-.logo {
-    max-width: 150px;
-    text-align: left;
-    margin-top: 0px;
+  .small-logo {
+    max-width: 45px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: -20px;
     padding: 0px;
-}
+  }
 
-
-.small-logo {
-  max-width: 45px;
-  text-align: left;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-bottom: -20px;
-    padding: 0px;
-}
-
-
-.custom-navbar a:hover {
-  color: var(--primary-color);
-
-}
-.customer-navbar.active a {
-  color: var(--primary-color);
-}
-
-
-.container-header {
-  background-color: var(--secondary-color);
-  background-size: 100%, 100%;
-  text-align: center;
-  padding: 0px;
-  margin: 0px;
-
-
-  .project-description {
+  .container-header {
+    background-color: var(--secondary-color);
     text-align: center;
-    padding: 0px 20px;
+    padding: 0px;
+    margin: 0px;
   }
 
   .paragraph {
     text-align: center;
-   font-size: 15px;
-     margin-top: -20px;
+    font-size: 15px;
+    margin-top: -20px;
   }
 
   .btn-yogurt {
@@ -255,33 +204,9 @@ h4 {
     width: fit-content;
   }
 
-
-
-.content-container,
-.content h1,
-.content h3 {
-    text-align: center;
-}
-
-
   body {
     text-align: center;
     margin-bottom: 10px;
-  }
-
-  .container,
-  .row,
-  .container-header,
-   .p-feature {
-    text-align: center !important;
- 
-  }
-
-
-  .project-description,
-  .row,
-  .container-header {
-    text-align: center;
   }
 
   img {
@@ -298,9 +223,9 @@ h4 {
   }
 
   h1 {
-    font-size: px;
+    font-size: 50px; /* fixed: was just "px" */
     text-align: center;
- margin-top: -30px;
+    margin-top: -30px;
   }
 
   h2 {
@@ -317,26 +242,10 @@ h4 {
     font-size: 15px;
     text-align: center;
   }
-  .p-feature {
-    text-align: center;
-  }
-
-
-body {
-    text-align: center;
-   
-  }
-
- 
-
-.project-description {
-    padding: 0;
-  }
-
-  
 
   .p-feature {
     font-size: 15px;
+    text-align: center;
     margin-bottom: 0px;
     margin-top: 20px;
   }
@@ -348,39 +257,110 @@ body {
   }
 
   .yogurt,
-    .weather,
-    .dictionary {
-      font-size: 30px;
-      padding-top: 0px;
-    }
+  .weather,
+  .dictionary {
+    font-size: 30px;
+    padding-top: 0px;
+  }
 
-    .content-container {
-    
-        padding: 50px 20px;
-    }
+  .content-container {
+    padding: 50px 20px;
+  }
 
-.content-container h1 {
+  .content-container h1 {
     font-size: 40px;
     padding-top: 35px;
-}
-    
+  }
 
-.content-container h2 {
+  .content-container h2 {
     font-size: 25px;
-}
+  }
 
-    
-    .content-container p {
+  .content-container p {
     font-size: 14px;
+  }
+
+  .profile-img {
+    width: 100%; /* fixed: was 850px */
+    height: 300px;
+    object-fit: cover;
+  }
 }
 
+/* iPhone / small phones */
+@media (max-width: 430px) {
+  body {
+    text-align: center;
+  }
 
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0;
+  }
 
-.profile-img {
-  width: 850px;
-  height: 350px;
-  text-align: center;
+  h2 {
+    font-size: 22px;
+    text-align: center;
+  }
 
- 
-}
+  h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .p-feature {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+
+  .btn-branding,
+  .btn-yogurt {
+    display: block;
+    margin: 10px auto;
+    width: fit-content;
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .content-container {
+    padding: 30px 15px;
+  }
+
+  .content-container h1 {
+    font-size: 32px;
+    padding-top: 20px;
+  }
+
+  .content-container h3 {
+    font-size: 18px;
+  }
+
+  .content-container p {
+    font-size: 13px;
+  }
+
+  .profile-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .yogurt,
+  .weather,
+  .dictionary {
+    font-size: 24px;
+    padding-top: 0px;
+  }
+
+  .custom-navbar,
+  .custom-navbar a {
+    font-size: 14px;
+    padding: 2px;
+  }
 }
