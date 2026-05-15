@@ -23,7 +23,12 @@ body {
     padding: 0px;
 }
 
-
+.small-logo {
+  max-width: 45px;
+     text-align: left;
+    margin-top: 0px;
+    padding: 0px;
+}
 
 
 .custom-navbar,
@@ -46,7 +51,7 @@ body {
 
 .container-header {
   background-color: var(--secondary-color);
-  background-size: 100% 100%;
+  background-size: 100%, 100%;
   text-align: center;
   padding: 0px;
   margin: 0px;
@@ -180,6 +185,8 @@ h4 {
     font-weight: bolder;
 }
 
+
+
 @media (max-width: 850px) {
 
 
@@ -195,6 +202,25 @@ h4 {
   
 }
 
+
+.logo {
+    max-width: 150px;
+    text-align: left;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+
+.small-logo {
+  max-width: 45px;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: -20px;
+    padding: 0px;
+}
+
+
 .custom-navbar a:hover {
   color: var(--primary-color);
 
@@ -202,6 +228,16 @@ h4 {
 .customer-navbar.active a {
   color: var(--primary-color);
 }
+
+
+.container-header {
+  background-color: var(--secondary-color);
+  background-size: 100%, 100%;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+
+
   .project-description {
     text-align: center;
     padding: 0px 20px;
@@ -347,8 +383,4 @@ body {
 
  
 }
-
-
 }
-
-
