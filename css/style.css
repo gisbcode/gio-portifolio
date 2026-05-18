@@ -65,7 +65,7 @@ h2 {
 
 h3 {
   color: #595959;
-  font-size: 25px;
+  font-size: 23px;
   font-family: var(--font-family);
   margin-bottom: 10px;
 }
@@ -223,7 +223,9 @@ footer p {
 }
 
 .about-content {
+  font-size: 10px;
   margin: 40px;
+  padding: 20px;
 }
 
 
