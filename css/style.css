@@ -167,7 +167,10 @@ p {
 }
 
 .content-container h3 {
-  font-size: 20px;
+  font-size: 22px;
+  margin: 50px;
+  padding-top: 5px;
+
 }
 
 .profile-img {
