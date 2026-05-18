@@ -325,7 +325,7 @@ h4 {
 }
 
   p {
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
   }
 
@@ -363,7 +363,7 @@ h4 {
   }
 
   .content-container p {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .profile-img {
@@ -371,7 +371,6 @@ h4 {
     height: 300px;
     object-fit: cover;
   }
-
 
 
   
@@ -432,7 +431,7 @@ h4 {
   }
 
   .content-container p {
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .profile-img {
