@@ -155,7 +155,7 @@ p {
 }
 
 .content-container h1 {
-  font-size: 60px;
+  font-size: 55px;
 }
 
 .content-container h3 {
@@ -240,7 +240,6 @@ footer p {
   text-decoration: none;
   font-size: 22px;
   display: block;
-  margin: 0 auto;
 
 /* Tablet */
 @media (max-width: 860px) {
