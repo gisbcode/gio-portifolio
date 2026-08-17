@@ -133,8 +133,13 @@ p {
   border: none;
 }
 
+.project-description .btn-yogurt {
+  display: table;
+  margin: 20px auto 0;
+}
+
 .btn {
-  margin-top: 5px;
+  margin-top: 8px;
 }
 
 .yogurt,
